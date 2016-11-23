@@ -20,14 +20,8 @@ def bonus
    }
   }
 
-epic_tragedy[:montague][:hero][:name][:age][status] = "dead"
-epic_tragedy[:capulet][:heroine][:name][:age][status] = "dead"
+epic_tragedy[:capulet][:heroine][:status]="dead"
+epic_tragedy[:montague][:hero][:status]="dead"
 
-# In lib/bonus.rb you'll see our completed epic_tragedy hash. We're coming to the end of the epic tragedy of Romeo and Juliet.
-# At this point in the story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above method to change the
-# status of our hero Romeo and our heroine Juliet from "alive" to "dead". These are bonus and if you're feeling comfortable
-# with Hashes, feel free to move forward. Also, to enable these tests make sure to remove the x in front of the it block in
-# spec/bonus_spec.rb.
-  #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
